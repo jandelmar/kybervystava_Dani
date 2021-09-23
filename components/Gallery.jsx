@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Card from '../components/Card'
 
 const images = [
@@ -10,30 +9,21 @@ const images = [
   "https://images.unsplash.com/photo-1631478409245-d8f0e2c7d680?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
 ]
 
-export default function Home() {
+export default function Gallery() {
   return (
-    <>
-      <Head>
-        <title>kybervystava_Dani</title>
-        <meta name="description" content="kybervystava_Dani" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <div className="container">
-          <div className="row">
-            <Card front={images[0]} back={images[3]} />
-            <Card front={images[1]} back={images[4]} />
-            <Card front={images[2]} back={images[5]} />
-          </div>
-          <div className="row">
-            <Card front={images[3]} back={images[0]} />
-            <Card front={images[4]} back={images[1]} />
-            <Card front={images[5]} back={images[2]} />
-          </div>
+    <main>
+      <div className="container">
+        <div className="row">
+          <Card front={images[0]} back={images[3]} />
+          <Card front={images[1]} back={images[4]} />
+          <Card front={images[2]} back={images[5]} />
         </div>
-      </main>
-
-    </>
-  )
+        <div className="row">
+          <Card front={images[3]} back={images[0]} />
+          <Card front={images[4]} back={images[1]} />
+          <Card front={images[5]} back={images[2]} />
+        </div>
+      </div>
+    </main>
+  );
 }
