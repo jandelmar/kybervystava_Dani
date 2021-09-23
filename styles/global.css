@@ -1,12 +1,14 @@
 
-/* Visit https://nicolaskadis.info/posts/pure-css-flip-cards-using-bootstrap-4-and-css-grid-no-js for an explanation */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
 
-/* for demo purposes */
 .card {
   margin: 10px 10px;
 }
 
-/* Flip Cards CSS */
 .card-container {
   display: grid;
   perspective: 700px;
@@ -15,7 +17,7 @@
 .card-flip {
   display: grid;
   grid-template: 1fr / 1fr;
-/*   grid-template-areas: "frontAndBack"; */
+  grid-template-areas: "frontAndBack";
   transform-style: preserve-3d;
   transition: all 0.7s ease;
 }
@@ -36,4 +38,9 @@
 
 .card-container:hover .card-flip {
   transform: rotateY(180deg);
+}
+
+footer {
+  font-size: 1.2em;
+  margin: 3em;
 }
