@@ -1,10 +1,12 @@
+import { buildImageUrl } from 'cloudinary-build-url';
 import Card from '../components/Card'
-import pic1 from '../public/img/1.jpg'
-import pic2 from '../public/img/2.jpg'
-import pic3 from '../public/img/3.jpg'
-import pic4 from '../public/img/4.jpg'
-import pic5 from '../public/img/5.jpg'
-import pic6 from '../public/img/6.jpg'
+
+const pic1 = buildImageUrl('kybervystava_Dani/1_igx6br', { cloud: { cloudName: 'jandelmar' } });
+const pic2 = buildImageUrl('kybervystava_Dani/2_kyrnb2', { cloud: { cloudName: 'jandelmar' } });
+const pic3 = buildImageUrl('kybervystava_Dani/3_pgn69r', { cloud: { cloudName: 'jandelmar' } });
+const pic4 = buildImageUrl('kybervystava_Dani/4_legnfq', { cloud: { cloudName: 'jandelmar' } });
+const pic5 = buildImageUrl('kybervystava_Dani/5_iwqve1', { cloud: { cloudName: 'jandelmar' } });
+const pic6 = buildImageUrl('kybervystava_Dani/6_lflpvz', { cloud: { cloudName: 'jandelmar' } });
 
 export default function Gallery() {
   return (
