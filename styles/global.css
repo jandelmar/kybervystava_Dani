@@ -1,16 +1,33 @@
-
-body {
-  font-family: 'Open Sans', sans-serif;
+html, body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.1em;
+  font-weight: 300;
   line-height: 1.5em;
+}
+
+.btn-outline-primary {
+  color: white;
+  border-color: white;
+}
+
+.modal {
+  color: #1a1a1a;
+}
+
+.modal h5 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 .card {
   margin: 10px 10px;
+  background-color: inherit;
 }
 
 .card-container {
-  display: grid;
   perspective: 700px;
 }
 

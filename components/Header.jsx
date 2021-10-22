@@ -7,16 +7,15 @@ export default function Header() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLongTitle">KONTRAKOLEKTIV</h5>
+              <h5 className="modal-title" id="exampleModalLongTitle">KONTRAKOLEKTIV<br />LISTY<br />MILOVA-NÉ/NÝM (2021)</h5>
               <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div className="modal-body">
-              <p>Kontra-umelecký kolektív stojí na princípoch participácie, interaktivity a dialógu. Má ambíciu spájať rôznorodých jednotlivcov za účelom vytvorenia komunitného umeleckého diela. Vznikol z potreby negovať predstavu o dôležitosti individuálneho umelca ako solitéra spoločenských ideí. Kladie si za cieľ kontrovať súčasným kultúrno-spoločenským tendenciám.</p>
-              <p><b>Komunita ≠ kolektív.</b> Cítime potrebu poskytnúť umelecký priestor ľuďom z rôznych sociálnych skupín a ekonomických vrstiev. Považujeme za nevyhnutné spájať inštitucionálne a sociálne angažované umenie, dostať ho bližšie k bežným ľuďom.</p>
-              <p><b>Konsenzus ≠ dialóg.</b> Chceme preskúmať tendencie súčasnej umeleckej praxe. Namiesto individuálnych referencií spoločenských problémov sa zameriavame na ich hĺbkovú emocionálnu analýzu. Namiesto “ako to básnik myslel?” sa orientujeme na “čo si o tomto probléme myslí skupina, ktorej sa tento problém týka?”.</p>
-              <p><b>Kolaborácia ≠ interaktivita.</b> Pracujeme prevažne formou automatických workshopov. Preferujeme aktívny vklad všetkých zúčastnených na kreatívnom procese, než hierarchickú štruktúru vedúceho a participantov.</p>
+              <p>Umelecká akcia <b><i>Listy milova-né/ným</i></b> skúma potenciálnu trvanlivosť kultúrnej produkcie. Cieľom je vytvoriť objekt fungujúci ako umelecký artefakt a úžitkový predmet zároveň. Jeho výstupom je ručne vyrobená pohľadnica kombinujúca transferovú techniku prenášania obrazu (averzná str.) a techniku sieťotlače (reverzná strana).</p>
+              <p>Na projekte participovalo 15 vybraných dobrovoľníkov, ktorí prostredníctvom ručne napísaného dopisu adresovaného svojmu <i>milovanému</i>, vytvorili obsahový základ pre tvorbu tzv. <i>Found poetry</i>, inak nazývanej aj <i>Blackout poetry</i>; dadaistickej formy automatickej poézie vznikajúcej selektívnou prácou, pri ktorej autor pracuje s vopred napísaným textom.</p>
+              <p>Dielo vzniklo na základe potreby preskúmať koncept autorstva v súčasnej literárnej praxi. Chceme sa zamyslieť nad tvorbou poézie z hľadiska jej prirodzenej spontaneity. a automatickosti, pričom pri tvorení básnických útvarov využívame náhodu ako konštitučný prvok. <b>VIAC</b></p>
             </div>
           </div>
         </div>
