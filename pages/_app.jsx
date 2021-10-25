@@ -1,6 +1,6 @@
-import Script from 'next/script'
+import Script from "next/script"
 
-import '../styles/global.css'
+import "../styles/global.css"
 
 function MyApp({ Component, pageProps }) {
   return (

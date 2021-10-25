@@ -1,9 +1,10 @@
-import Modal from './Modal'
+import Modal from "./Modal"
+import Menu from "./Menu"
 
 export default function Header() {
   return (
     <header className="flex-md-row p-3">
-      <button type="button" className="btn btn-outline-primary" data-toggle="modal" data-target="#modalLong"><b>...</b></button>
+      <Menu />
       <Modal />
     </header>
   )

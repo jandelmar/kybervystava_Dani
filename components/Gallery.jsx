@@ -1,12 +1,12 @@
-import { buildImageUrl } from 'cloudinary-build-url';
-import Card from '../components/Card'
+import { buildImageUrl } from "cloudinary-build-url";
+import Card from "../components/Card"
 
-const pic1 = buildImageUrl('kybervystava_Dani/1_igx6br', { cloud: { cloudName: 'jandelmar' } });
-const pic2 = buildImageUrl('kybervystava_Dani/2_kyrnb2', { cloud: { cloudName: 'jandelmar' } });
-const pic3 = buildImageUrl('kybervystava_Dani/3_pgn69r', { cloud: { cloudName: 'jandelmar' } });
-const pic4 = buildImageUrl('kybervystava_Dani/4_legnfq', { cloud: { cloudName: 'jandelmar' } });
-const pic5 = buildImageUrl('kybervystava_Dani/5_iwqve1', { cloud: { cloudName: 'jandelmar' } });
-const pic6 = buildImageUrl('kybervystava_Dani/6_lflpvz', { cloud: { cloudName: 'jandelmar' } });
+const pic1 = buildImageUrl("kybervystava_Dani/1_igx6br", { cloud: { cloudName: "jandelmar" } });
+const pic2 = buildImageUrl("kybervystava_Dani/2_kyrnb2", { cloud: { cloudName: "jandelmar" } });
+const pic3 = buildImageUrl("kybervystava_Dani/3_pgn69r", { cloud: { cloudName: "jandelmar" } });
+const pic4 = buildImageUrl("kybervystava_Dani/4_legnfq", { cloud: { cloudName: "jandelmar" } });
+const pic5 = buildImageUrl("kybervystava_Dani/5_iwqve1", { cloud: { cloudName: "jandelmar" } });
+const pic6 = buildImageUrl("kybervystava_Dani/6_lflpvz", { cloud: { cloudName: "jandelmar" } });
 
 export default function Gallery() {
   return (

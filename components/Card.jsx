@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image"
 
 export default function Card({front, back, alt_front = "front", alt_back = "back"}) {
     return (
